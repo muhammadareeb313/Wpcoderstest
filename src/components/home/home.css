@@ -1,0 +1,61 @@
+.MainHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+
+   
+}
+.Home{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(26, 25, 25, 0.85)), url(../../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.MainHome .leftDiv .subheading {
+padding-right: 100px;
+color: #FDC62F;
+    margin-bottom: 20px;
+}
+.MainHome .rightDiv img{
+width: 100%;
+}
+.MainHome .leftDiv .infoHeading{
+    color: white;
+    margin-bottom: 20px;
+padding-right: 180px;
+line-height: 1.2;
+    font-weight: 700;
+    font-size: 3.5rem;
+
+
+}
+
+.seeMore{
+margin-right: 10px;
+background-color: #3E2723;
+color: white;
+    font-weight: 500;
+    padding: 20px 50px;
+    transition: all .3s linear;
+
+}
+.seeMore:hover{
+border: 2px solid #FDC62F;
+
+
+}
+.learnMore{
+    padding: 20px 50px;
+
+border: 2px solid #FDC62F;
+background-color: #06080B;
+color: white;
+font-weight: 500;
+
+
+}
